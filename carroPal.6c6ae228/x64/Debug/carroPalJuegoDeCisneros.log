@@ -1,0 +1,11 @@
+﻿  carroPalJuegoDeCisneros.cpp
+C:\Users\super\OneDrive\Documentos\C++.VSCode\carroPalJuegoDeCisneros\Header.h(8,74): warning C4838: la conversión de 'int' en 'char' requiere una conversión de restricción
+  (compilando archivo de origen "carroPalJuegoDeCisneros.cpp")
+  
+C:\Users\super\OneDrive\Documentos\C++.VSCode\carroPalJuegoDeCisneros\Header.h(8,74): warning C4305: 'inicializando': truncamiento de 'int' a 'char'
+  (compilando archivo de origen "carroPalJuegoDeCisneros.cpp")
+  
+C:\Users\super\OneDrive\Documentos\C++.VSCode\carroPalJuegoDeCisneros\Header.h(8,74): warning C4309: 'inicializando': truncamiento de valor constante
+  (compilando archivo de origen "carroPalJuegoDeCisneros.cpp")
+  
+  carroPalJuegoDeCisneros.vcxproj -> C:\Users\super\OneDrive\Documentos\C++.VSCode\carroPalJuegoDeCisneros\x64\Debug\carroPalJuegoDeCisneros.exe
