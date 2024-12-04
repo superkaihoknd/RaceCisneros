@@ -3,6 +3,7 @@
 using namespace std;
 static void Car(int desp)
 {
+    //Creacion del carro
     char carOwn[][10] = { {' ', ' ', '_', '_', '_', '_', '_', '_', ' ', ' '},
                           { ' ', '/', ' ', ' ', '|', '_', '_', '_', '\\', ' ' },
                           { '|', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' |' },
