@@ -2,12 +2,14 @@
 #include <conio.h>
 #include <Windows.h>
 #include "Header.h"
+#include "Header1.h"
 using namespace std;
 
 
 int main()
 {
     //Cambio
+   
     for (int i = 0; i < 100; i+=2)
     {
         system("cls");
@@ -19,5 +21,6 @@ int main()
     //Cambio desde github
     //Cambio desde vs2022
     //Cambioi con push
+    cout << "Tu velocidad es: " << velocit() << endl;
 
 }
