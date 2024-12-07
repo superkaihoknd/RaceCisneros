@@ -23,8 +23,7 @@ static void Car(int desp)
         }
         cout << endl;
     }
-   //Elizabt
+  
 
     //COmo chuichas funciona esto
-    //Cambio desde vs
 }
