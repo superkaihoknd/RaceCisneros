@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
     //Cambio
-    for (int i = 0; i < 100; i++)
+    for (int i = 0; i < 100; i+=2)
     {
         system("cls");
         Car(i);
