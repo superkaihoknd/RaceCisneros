@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include"gotoxy.h"
 using namespace std;
 static void Car(int desp)
 {
@@ -12,15 +13,18 @@ static void Car(int desp)
     for (int i = 0; i < 4; i++)
     {
         //-- 
-        for (int j = 0; j < desp; j++)
+        for (int j = 201; j > desp; j-=2)
         {
+            
             cout << ' ';
         }
         //Bucle para columna
         for (int j = 0; j < 10; j++)
         {
+           
             cout << carOwn[i][j];
         }
+        
         cout << endl;
     }
   
