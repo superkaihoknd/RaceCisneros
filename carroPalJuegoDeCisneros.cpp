@@ -1,20 +1,22 @@
 #include <iostream>
 #include <conio.h>
-#include <Windows.h>
+#include <windows.h>
 #include "Header.h"
-#include "Header1.h"
+
 using namespace std;
 
 
 int main()
 {
-    //Cambio
+    
    
     for (int i = 0; i < 200; i+=10)
     {
         system("cls");
+       
         Car(i);
         Sleep(100);
+       
     }
     //Fin del ciclo
 
