@@ -12,7 +12,7 @@ static void Car(int desp)
     for (int i = 0; i < 4; i++)
     {
         //-- 
-        for (int j = 0; j < desp; j++)
+        for (int j = 201; j > desp; j-=2)
         {
             cout << ' ';
         }
@@ -21,6 +21,7 @@ static void Car(int desp)
         {
             cout << carOwn[i][j];
         }
+        
         cout << endl;
     }
   

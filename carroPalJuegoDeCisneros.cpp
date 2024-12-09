@@ -10,7 +10,7 @@ int main()
 {
     //Cambio
    
-    for (int i = 0; i < 100; i+=2)
+    for (int i = 0; i < 200; i+=10)
     {
         system("cls");
         Car(i);
@@ -18,7 +18,7 @@ int main()
     }
     //Fin del ciclo
 
-    //Cambio desde github
+    //Cambio desde githuyY
     //Cambio desde vs2022
     //Cambioi con push
 
