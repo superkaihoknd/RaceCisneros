@@ -12,6 +12,7 @@ int main()
     int y=10, x=200;
     char key;
    
+    //Generacion de carros
     for (int i = 0; i < 200; i+=10)
     {
         system("cls");
@@ -20,7 +21,7 @@ int main()
         Sleep(100);
 
         //Cambio de posicion del carro por teclado
-        if (_kbhit)
+        if (_kbhit())//--Correccion del metodo Faltaba ()
         {
             key = _getch();
             switch (key) 
