@@ -31,9 +31,6 @@ int main()
             case 'k':
                 y++;
                 break;
-
-            
-            
             }
         }
 
