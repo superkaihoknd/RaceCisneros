@@ -2,20 +2,41 @@
 #include <conio.h>
 #include <windows.h>
 #include "Header.h"
+#include "gotoxy.h"
 
 using namespace std;
 
 
 int main()
 {
-    
+    int y=10, x=200;
+    char key;
    
     for (int i = 0; i < 200; i+=10)
     {
         system("cls");
-       
+        gotoxy(x, y);
         Car(i);
         Sleep(100);
+
+        //Cambio de posicion del carro por teclado
+        if (_kbhit)
+        {
+            key = _getch();
+            switch (key) 
+            {
+            case 'j':
+                y--;
+                break;
+            case 'k':
+                y++;
+                break;
+
+            
+            
+            }
+        }
+
        
     }
     //Fin del ciclo

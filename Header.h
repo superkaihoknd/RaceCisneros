@@ -1,6 +1,5 @@
 #pragma once
 #include <iostream>
-#include"gotoxy.h"
 using namespace std;
 static void Car(int desp)
 {
