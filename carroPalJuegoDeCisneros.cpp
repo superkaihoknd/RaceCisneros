@@ -27,10 +27,10 @@ int main()
             switch (key)
             {
             case 'j':
-                y--;
+                y-=5;
                 break;
             case 'k':
-                y++;
+                y+=5;
                 break;
             }
         }
